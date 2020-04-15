@@ -1,0 +1,173 @@
+body {
+  background-color: #D1EAFD;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 750px;
+}
+
+div.Welcome_Message {
+  position: absolute;
+  height: 80%;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: linear-gradient(89.95deg, rgba(28, 52, 78, 0.8008) 48.32%, rgba(53, 85, 133, 0.3256) 107.32%), url(DSC_0824.jpg);
+  background-size: cover;
+}
+
+img.logo {
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+p.Welcome_Text {
+  position: absolute;
+  width: 500px;
+  height: 58.23px;
+  left: 100px;
+  top: 15%;
+  font-family: monospace Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 42px;
+  letter-spacing: 0.21em;
+  color: #98E6E1;
+  text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.24);
+}
+
+p.Judging_Text {
+  position: absolute;
+  width: 769px;
+  height: 97.36px;
+  left: 100px;
+  top: 10%;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 104px;
+  color: #98E6E1;
+  text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.24);
+}
+
+p.Judging_Info_Text {
+  position: absolute;
+  width: 641px;
+  height: 172.77px;
+  left: 100px;
+  top: 40%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 153.19%;
+  color: #98E6E1;
+}
+
+div.Effect1 {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  left: 0px;
+  top: 250px;
+  background-image: url(e1.png);
+}
+
+div.Effect2 {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  left: 0px;
+  top: 350px;
+  background-image: url(e2.png);
+}
+
+.How_To_Use_Text {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  margin-top: -150px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: -0.4px;
+}
+
+.Text1 {
+  position: absolute;
+  float: left;
+  width: 33.333%;
+  top: 95%;
+  left: 0%;
+  display: inline-block;
+}
+
+.Text3 {
+  position: absolute;
+  float: right;
+  width: 33.333%;
+  top: 95%;
+  right: 0%;
+  display: inline-block;
+}
+
+.Text2 {
+  position: absolute;
+  display: inline-block;
+  width: 33.333%;
+  top: 95%;
+  left: 33%;
+  display: inline-block;
+}
+
+.t {
+  width: 250px;
+  height: 150px;
+  top: 90%;
+  left: 5%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 153.19%;
+  text-align: justify;
+  color: #243950;
+}
+
+img.icon {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  float: left;
+  padding-right: 2px;
+}
+
+button.Start {
+  position: absolute;
+  bottom: -25%;
+  right: 40%;
+  width: 250px;
+  height: 40px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.4px;
+  padding-left: 75px;
+  color: #FFFFFF;
+  background: linear-gradient(270deg, #74A0CE 0%, #1C344E 100%);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}

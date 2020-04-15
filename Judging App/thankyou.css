@@ -1,0 +1,115 @@
+body {
+  background-color: #D1EAFD;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div.Thankyou_Message {
+  position: absolute;
+  height: 95%;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: linear-gradient(89.95deg, rgba(28, 52, 78, 0.8008) 48.32%, rgba(53, 85, 133, 0.3256) 107.32%), url(DSC_0824.jpg);
+  background-size: cover;
+}
+
+img.logo {
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+p.ty_text {
+  position: absolute;
+  width: 626px;
+  height: 173px;
+  left: 100px;
+  top: 35%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 153.19%;
+  /* or 43px */
+  color: #98E6E1;
+}
+
+p.ty {
+  position: absolute;
+  width: 769px;
+  height: 113px;
+  left: 100px;
+  top: 10%;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 76px;
+  line-height: 104px;
+  color: #98E6E1;
+  text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.24);
+}
+
+div.Effect1 {
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  left: 0px;
+  top: 70%;
+  background-image: url(e1.png);
+}
+
+div.Effect2 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0px;
+  top: 80%;
+  background-image: url(e2.png);
+}
+
+button.submit_scores {
+  position: absolute;
+  left: 10%;
+  width: 15%;
+  top: 70%;
+  background: linear-gradient(270deg, #D1E3FE 0%, #C2F9F6 100%);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  border-radius: 40px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.4px;
+  padding-left: 35px;
+  color: #333333;
+}
+
+button.review {
+  position: absolute;
+  left: 30%;
+  width: 18%;
+  top: 70%;
+  background: #95A0BF;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  border-radius: 40px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.4px;
+  padding-left: 35px;
+  color: #FFFFFF;
+}

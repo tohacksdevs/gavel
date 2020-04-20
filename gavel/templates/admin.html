@@ -36,6 +36,11 @@
           <th data-sort-method="caseInsensitiveSort" data-sort-order="desc">Prioritize</th>
           <th data-sort-method="caseInsensitiveSort">Active</th>
           <th class="no-sort">Delete</th>
+          <th data-sort-method="number">Crit1</th>
+          <th data-sort-method="number">Crit2</th>
+          <th data-sort-method="number">Crit3</th>
+          <th data-sort-method="number">Crit4</th>
+          <th data-sort-method="number">Crit5</th>
         </tr>
       </thead>
       <tbody>
@@ -71,6 +76,11 @@
               <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
             </form>
           </td>
+          <td>{{ item.mu | round(4) }}</td>
+          <td>{{ item.sigma_sq | round(4) }}</td>
+          <td>{{ item_counts.get(item.id, 0) }}</td>
+          <td>{{ item.viewed | length }}</td>
+          <td>{{ skipped.get(item.id, 0) }}</td>
         </tr>
         {% endfor %}
       </tbody>

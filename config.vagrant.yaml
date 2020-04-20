@@ -1,0 +1,9 @@
+# settings optimized for development in a Vagrant VM
+admin_password: admin
+secret_key: gavel
+db_uri: postgresql://localhost/gavel
+disable_email: false
+email_from: 'tohacksgavel@gmail.com'
+email_user: 'tohacksgavel@gmail.com'
+email_password: 'ENTER_PASSWORD_HERE'
+send_stats: false # disabled for development
